@@ -13,7 +13,7 @@ Contributions are always welcome!
 
 ## License
 
-MIT License(LICENSE)
+MIT License [LICENSE](https://github.com/Susmit-Ullas/Front-EndWebProjects/blob/main/LICENSE)
 
 Copyright (c) 2022 Susmit Ullas
 
