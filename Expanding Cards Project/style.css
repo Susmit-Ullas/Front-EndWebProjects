@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Send Flowers', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    min-width: 100px; 
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.neonText {
+  color: rgb(255, 255, 255);
+  text-shadow:
+    0 0 7px orange,
+    0 0 10px orange,
+    0 0 21px orange,
+    0 0 42px orange,
+    0 0 82px orange,
+    0 0 92px orange,
+    0 0 102px orange,
+    0 0 151px orange;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    cursor: pointer;    
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100vw;
+    }
+}
