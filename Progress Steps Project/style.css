@@ -112,6 +112,5 @@ h1 {
 }
 
 .btn.disabled {
-    background-color: var(--line-border-empty);
     cursor: not-allowed;
 }
