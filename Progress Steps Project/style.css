@@ -28,6 +28,7 @@ h1 {
     font-family: 'Send Flowers', cursive;
     position: absolute;
     top: 0%;
+    padding-top: 20px;
 }
 
 .container {
