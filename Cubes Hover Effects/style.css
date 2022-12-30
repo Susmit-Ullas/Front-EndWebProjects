@@ -12,8 +12,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    overflow: hidden;
-    min-width: 100px; 
 }
 
 h1 {
