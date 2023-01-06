@@ -83,7 +83,7 @@ body {
 .container .cube div span:hover::before {
     transition: 0s;
     background: #f75d64;
-    transform: skewY(45deg) translateX(40px);
+    transform: skewY(45deg);
 }
 
 .container .cube div span::after {
@@ -102,5 +102,5 @@ body {
 .container .cube div span:hover::after {
     transition: 0s;
     background: #f14e55;
-    transform: skewX(45deg) translateY(40px);
+    transform: skewX(45deg);
 }
