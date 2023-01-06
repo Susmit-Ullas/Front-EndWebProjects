@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(6, 0, 94);
+    background: #202020;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@ body {
 
  /* Dark theme colors */
  .dark-mode {
-    background: #1F2223;
+    background: #5e5e5e;
  }
  .dark-mode .container .cube div span {
     background: #2c2f31;
