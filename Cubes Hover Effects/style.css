@@ -1,10 +1,12 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body 
+{
     background: #202020;
     display: flex;
     align-items: center;
@@ -13,14 +15,16 @@ body {
     min-width: 100vw;
 }
 
-.container {
+.container 
+{
     position: relative;
     top: -80px;
     transform: skewY(-20deg);
     animation: animate 5s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animate 
+{
     0% {
         filter: hue-rotate(0deg);
     }
@@ -29,22 +33,26 @@ body {
     }
 }
 
-.container .cube {
+.container .cube 
+{
     position: relative;
     z-index: 2;
 }
 
-.container .cube:nth-child(2) {
+.container .cube:nth-child(2) 
+{
     z-index: 1;
     translate: -60px -60px;
 }
 
-.container .cube:nth-child(3) {
+.container .cube:nth-child(3) 
+{
     z-index: 3;
     translate: 60px 60px;
 }
 
-.container .cube div {
+.container .cube div 
+{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -52,7 +60,8 @@ body {
     translate: calc(-70px * var(--x)) calc(-60px * var(--y));
 }
 
-.container .cube div span {
+.container .cube div span 
+{
     display: inline-block;
     position: relative;
     width: 50px;
@@ -62,13 +71,15 @@ body {
     transition: 1.5s;
 }
 
-.container .cube div span:hover {
+.container .cube div span:hover 
+{
     transition: 0s;
     background: red;
     filter: drop-shadow(0 0 30px red);
 }
 
-.container .cube div span::before {
+.container .cube div span::before 
+{
     content: '';
     position: absolute;
     left: -40px;
@@ -80,13 +91,15 @@ body {
     transition: 1.5s;
 }
 
-.container .cube div span:hover::before {
+.container .cube div span:hover::before 
+{
     transition: 0s;
     background: #f75d64;
     transform: skewY(45deg);
 }
 
-.container .cube div span::after {
+.container .cube div span::after 
+{
     content: '';
     position: absolute;
     top: -40px;
@@ -99,28 +112,34 @@ body {
     transition: 1.5s;
 }
 
-.container .cube div span:hover::after {
+.container .cube div span:hover::after 
+{
     transition: 0s;
     background: #f14e55;
     transform: skewX(45deg);
 }
 
- /* Dark theme colors */
- .dark-mode {
+/* Dark theme colors */
+.dark-mode 
+{
     background: #5e5e5e;
- }
- .dark-mode .container .cube div span {
+}
+.dark-mode .container .cube div span 
+{
     background: #2c2f31;
-  }
-  .dark-mode .container .cube div span::after {
+}
+.dark-mode .container .cube div span::after 
+{
     background: #1F2223;
-  }
-  .dark-mode .container .cube div span::before {
+}
+.dark-mode .container .cube div span::before 
+{
     background: #181A1B;
-  }
-  /* Dark theme colors */
+}
+/* Dark theme colors */
 
-  input[type="checkbox"] {
+input[type="checkbox"] 
+{
     width: 60px;
     height: 30px;
     -webkit-appearance: none;
@@ -134,9 +153,10 @@ body {
     top: 10px;
     left: 15px;
     right: 0;
-  }
+}
   
-  input[type="checkbox"]::before {
+input[type="checkbox"]::before 
+{
     content: "";
     width: 24px;
     height: 24px;
@@ -146,14 +166,16 @@ body {
     top: 3px;
     left: 6px;
     transition: 0.5s;
-  }
+}
   
-  input[type="checkbox"]:checked::before {
+input[type="checkbox"]:checked::before 
+{
     transform: translateX(100%);
     background: rgba(128, 128, 128, 0.651);
-  }
+}
   
-  input[type="checkbox"]:checked {
+input[type="checkbox"]:checked 
+{
     background: white;
     box-shadow: inset 0 0 5px rgb(0, 0, 0);
-  }
+}
