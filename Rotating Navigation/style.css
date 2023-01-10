@@ -33,6 +33,7 @@ p {
   
   .container.show-nav {
     transform: rotate(-20deg);
+    position: fixed;
   }
   
   .circle-container {
