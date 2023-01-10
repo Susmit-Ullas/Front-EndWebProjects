@@ -6,7 +6,7 @@ The goal of this repository is to
 make beginner web developers' life easier
 by offering a collection of small
 front-end web projects to practice and contribute to.
-There will be more projects added to the repository over time.
+There will be more projects added to the repository over time.(check)
 
 ## Contributing
 
