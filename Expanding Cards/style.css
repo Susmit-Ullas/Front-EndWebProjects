@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body 
+{
     font-family: 'Send Flowers', cursive;
     display: flex;
     flex-direction: column;
@@ -17,12 +19,14 @@ body {
     min-width: 100px; 
 }
 
-h1 {
+h1 
+{
     padding: 10px 0;
     margin-bottom: 10px;
 }
 
-.neonText {
+.neonText 
+{
   color: rgb(255, 255, 255);
   text-shadow:
     0 0 5px orange,
@@ -35,7 +39,8 @@ h1 {
     0 0 120px orange;
 }
 
-.container {
+.container 
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +48,8 @@ h1 {
     width: 90vw;
 }
 
-.panel {
+.panel 
+{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +63,8 @@ h1 {
     box-shadow: 0 0 15px 2px rgb(0, 0, 0);
 }
 
-.panel h3 {
+.panel h3 
+{
     font-size: 30px;
     position: absolute;
     bottom: 20px;
@@ -65,32 +72,39 @@ h1 {
     opacity: 0;
 }
 
-.panel.active {
+.panel.active 
+{
     flex: 5;
 }
 
-.panel.active h3 {
+.panel.active h3 
+{
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 
 }
 
-@media (max-width: 500px) {
-    .container {
+@media (max-width: 500px) 
+{
+    .container 
+    {
         width: 100vw;
     }
 }
 
 /* Dark theme colors */
-.dark-mode {
+.dark-mode 
+{
     background: #000000;
 }
-.dark-mode .panel {
+.dark-mode .panel 
+{
     box-shadow: 0 0 15px 2px rgb(255, 255, 255);
 }
 /* Dark theme colors */
 
-input[type="checkbox"] {
+input[type="checkbox"] 
+{
     width: 60px;
     height: 30px;
     -webkit-appearance: none;
@@ -106,7 +120,8 @@ input[type="checkbox"] {
     right: 0;
 }
   
-input[type="checkbox"]::before {
+input[type="checkbox"]::before 
+{
     content: "";
     width: 24px;
     height: 24px;
@@ -118,12 +133,14 @@ input[type="checkbox"]::before {
     transition: 0.5s;
 }
   
-input[type="checkbox"]:checked::before {
+input[type="checkbox"]:checked::before 
+{
     transform: translateX(100%);
     background: rgba(128, 128, 128, 0.651);
 }
   
-input[type="checkbox"]:checked {
+input[type="checkbox"]:checked 
+{
     background: white;
     box-shadow: inset 0 0 5px rgb(0, 0, 0);
 }
