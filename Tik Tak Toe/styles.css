@@ -61,9 +61,15 @@ span
   border-bottom: none;
 }
 
-.left{border-left: none;}
+.left
+{
+  border-left: none;
+}
 
-.right{border-right: none;}
+.right
+{
+  border-right: none;
+}
 
 .alert
 {
