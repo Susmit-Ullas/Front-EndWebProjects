@@ -15,7 +15,10 @@ body
   text-align: center;
 }
 
-h1{font-size: 200%;}
+h1
+{
+  font-size: 200%;
+}
 
 #container 
 {
@@ -48,7 +51,10 @@ span
   margin-left: -35px;
 }
 
-.top{border-top: none;}
+.top
+{
+  border-top: none;
+}
 
 .bottom{border-bottom: none;}
 
