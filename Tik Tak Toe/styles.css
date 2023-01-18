@@ -56,7 +56,10 @@ span
   border-top: none;
 }
 
-.bottom{border-bottom: none;}
+.bottom
+{
+  border-bottom: none;
+}
 
 .left{border-left: none;}
 
