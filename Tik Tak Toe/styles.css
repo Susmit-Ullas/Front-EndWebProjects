@@ -105,9 +105,15 @@ button
   outline: none;
 }
 
-button:focus{background: silver;}
+button:focus
+{
+  background: silver;
+}
 
-.activeBox{background: silver;}
+.activeBox
+{
+  background: silver;
+}
 
 /* Dark theme colors */
 .dark-mode
@@ -168,4 +174,3 @@ input[type="checkbox"]:checked
   background: white;
   box-shadow: inset 0 0 5px rgb(0, 0, 0);
 }
-  
