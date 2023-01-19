@@ -27,16 +27,16 @@ h1
 
 .neonText 
 {
-  color: rgb(255, 255, 255);
-  text-shadow:
-    0 0 5px orange,
-    0 0 10px orange,
-    0 0 20px orange,
-    0 0 40px orange,
-    0 0 80px orange,
-    0 0 90px orange,
-    0 0 100px orange,
-    0 0 120px orange;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        0 0 5px orange,
+        0 0 10px orange,
+        0 0 20px orange,
+        0 0 40px orange,
+        0 0 80px orange,
+        0 0 90px orange,
+        0 0 100px orange,
+        0 0 120px orange;
 }
 
 .container 
