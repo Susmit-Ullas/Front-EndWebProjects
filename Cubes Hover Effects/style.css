@@ -124,14 +124,17 @@ body
 {
     background: #5e5e5e;
 }
+
 .dark-mode .container .cube div span 
 {
     background: #2c2f31;
 }
+
 .dark-mode .container .cube div span::after 
 {
     background: #1F2223;
 }
+
 .dark-mode .container .cube div span::before 
 {
     background: #181A1B;
