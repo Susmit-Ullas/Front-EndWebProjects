@@ -91,7 +91,7 @@ h1
     }
 }
 
-/* Dark theme colors */
+/* Dark mode colors */
 .dark-mode 
 {
     background: #000000;
@@ -101,7 +101,7 @@ h1
 {
     box-shadow: 0 0 15px 2px rgb(255, 255, 255);
 }
-/* Dark theme colors */
+/* Dark mode colors */
 
 input[type="checkbox"] 
 {
