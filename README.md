@@ -12,9 +12,7 @@ There will be more projects added to the repository over time.
 
 Contributions are always welcome!
 
-You can create issues, solve issues, suggest new features,
-and even come up with new ideas for the upcoming small projects.
-Thank you for your contribution, in advance.
+If you find any issues or have suggestions for improvements, please feel free to create an issue. I will respond to it as soon as possible.
 
 ## License
 
